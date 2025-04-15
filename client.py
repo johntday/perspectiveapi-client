@@ -1,6 +1,9 @@
 from googleapiclient import discovery
 import json
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 PERSPECTIVE_API_KEY = os.getenv('PERSPECTIVE_API_KEY')
 
